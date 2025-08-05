@@ -73,16 +73,21 @@ To explore and analyze the cleaned Titanic dataset to:
 
 ## 🚀 How to Run
 
-1. Clone this repository:
+1. **Clone this repo**:
    ```bash
    git clone https://github.com/NampllayNihal/Exploratory-Data-Analysis.git
-2.Open titanic_eda.ipynb in Google Colab or Jupyter Notebook.
+2.Open Exploratory-Data-Analysis.ipynb in Jupyter Notebook or Google Colab.
+3.Run all cells
 
-3.Run each cell step-by-step to view the full analysis and visualizations.
+---
+
 🙋‍♂️ Author
 Nihal Nampally
 🎓 B.Tech, AI & ML
 📧 nihalnampally@gmail.com
 🌐 LinkedIn | GitHub
+
+---
+
 🏷️ Tags
 #EDA #TitanicDataset #DataVisualization #Python #CleanedData #Seaborn #Pandas
