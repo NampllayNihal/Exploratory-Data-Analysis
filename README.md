@@ -1,33 +1,88 @@
-# Exploratory-Data-Analysis-
-To understand and explore the Titanic dataset using summary statistics and visualizations.
+# 📊 Exploratory Data Analysis (EDA) on Titanic Dataset
 
-## 🧰 Tools Used:
-- pandas
-- matplotlib
-- seaborn
-- plotly (optional)
-
-## 📝 Steps Performed:
-1. Loaded and inspected the dataset.
-2. Generated summary statistics and identified missing values.
-3. Created histograms and boxplots for numeric features.
-4. Used heatmaps and pairplots to visualize relationships.
-5. Identified trends: females and first-class passengers had better survival chances.
-
-## 📈 Key Insights:
-- Survival was influenced by gender, age, and passenger class.
-- Strong correlation between fare and survival.
-- Data was relatively clean and ready for modeling.
-
-## 📊 Example Visuals:
-- Age distribution histogram
-- Fare boxplot
-- Correlation heatmap
-- Survival by gender and class bar plots
-
-## 📁 Dataset:
-Used `Cleaned_Titanic_Dataset.csv` for the analysis.
+This repository contains a detailed Exploratory Data Analysis (EDA) of the **cleaned Titanic dataset**, revealing patterns and trends essential for understanding the data before modeling.
 
 ---
 
-✅ **Task Completed by:** Nihal Nampally
+## 📂 Dataset
+
+- **File Used**: `Cleaned_Titanic_Dataset.csv`
+- **Source**: Cleaned version of Titanic dataset originally from [Kaggle - Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic/data)
+
+---
+
+## 🎯 Objective
+
+To explore and analyze the cleaned Titanic dataset to:
+- Understand feature relationships
+- Visualize survival patterns
+- Identify trends and distributions
+- Support future modeling efforts
+
+---
+
+## 📌 Key EDA Insights
+
+- Gender-based survival analysis
+- Impact of passenger class on survival
+- Age and Fare distribution
+- Embarkation point influence
+- Correlation between features
+
+---
+
+## 🧰 Tools & Libraries Used
+
+- Python 🐍
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+---
+
+## 🔍 EDA Breakdown
+
+1. Dataset overview and structure
+2. Checking for any remaining missing values
+3. Univariate analysis (e.g., Age, Fare)
+4. Bivariate analysis (e.g., Survived vs Sex, Pclass)
+5. Categorical feature visualization (e.g., Embarked)
+6. Correlation heatmap and pairplots
+
+---
+
+## 📸 Visual Output Examples
+
+- 📦 **Bar chart**: Survival by class  
+- 🔵 **Pie chart**: Gender distribution  
+- 🧮 **Histogram**: Age distribution  
+- 🔥 **Heatmap**: Feature correlation  
+
+---
+
+## 📁 Files Included
+
+| File                          | Description                                 |
+|-------------------------------|---------------------------------------------|
+| `Cleaned_Titanic_Dataset.csv` | Cleaned dataset ready for analysis          |
+| `titanic_eda.ipynb`           | Jupyter/Colab notebook for full EDA process |
+| `README.md`                   | Project overview (this file)                |
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/NampllayNihal/Exploratory-Data-Analysis.git
+2.Open titanic_eda.ipynb in Google Colab or Jupyter Notebook.
+
+3.Run each cell step-by-step to view the full analysis and visualizations.
+🙋‍♂️ Author
+Nihal Nampally
+🎓 B.Tech, AI & ML
+📧 nihalnampally@gmail.com
+🌐 LinkedIn | GitHub
+🏷️ Tags
+#EDA #TitanicDataset #DataVisualization #Python #CleanedData #Seaborn #Pandas
